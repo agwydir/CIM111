@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+
+body{background-color: aliceblue;}
+
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+.headings{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#sidebar nav li {
+    list-style: none;
+    text-align: center;
+    margin-left: -4%;
+}
+
+#sidebar nav li:hover{
+    background-color: skyblue;
+}
+
+#sidebar nav li a{
+    text-decoration: none;
+    color: darkcyan;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.italics{
+    color: grey;
+}
+
+#fulltext{
+    margin-left: 4%;
+}

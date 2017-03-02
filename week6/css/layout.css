@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+
+body{background-color: aqua;}
+
+h1{font-family: 'Sansita', sans-serif;
+text-align: center;}
+
+
+#sidebar{
+    background-color: azure;
+    width: 20%;
+    height: 700px;
+    float: left;
+}
+
+#sidebar nav ul{
+    margin-left: -40px;
+}
+
+#sidebar nav li{
+    list-style: none;
+    background-color: cornflowerblue;
+}
+
+#sidebar nav li:hover{
+    background-color: aliceblue;
+}
+
+#sidebar nav li a{
+    margin-left: 40px;
+    text-decoration: non;
+    color: darkmagenta;
+}
+
+#mainContainer{
+    background-color: orange;
+    width: 70%;
+    height: 700px;
+    float: left;
+}
+
+#title{
+    margin-left: 10px;
+}
+
+#mainImage{
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+}
+
+#columns{
+    width: 100%;
+    height: 300 px;
+    background-color: rebeccapurple;
+    margin-top: 20px;
+}
+
+.col{
+    width: 33.3%;
+    height: 300px;
+    background-color: azure;
+    float: left;
+}
+
+#col1{
+    background-color: deepskyblue;
+}
+
+#col2{
+    background-color: palegreen;
+}
+
+#col3{
+    background-color: mediumpurple;
+}
+
+.clear{
+    float: none;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
